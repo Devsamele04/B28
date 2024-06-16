@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color:#fff;
+  padding: 15px;
+}
+#nav {
+  height: 70px;
+  width: 100%;
+  /* background-color: aqua; */
+  border: 1px solid #111;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav-part1 {
+  padding: 12px;
+  text-transform: uppercase;
+}
+#nav-part2 {
+  display: flex;
+  gap: 35px;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+}
+#nav-part2 h5 {
+  font-weight: 500;
+}
+#nav-part3 {
+  padding-right: 30px;
+}
+#nav-part3 i {
+  font-size: 17px;
+}
+#nav-part3 input {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+#content-container{
+    display:flex;
+    gap:10px;
+}
+#content-container-part1{
+    height: 650px;
+    width: 800px;
+    /* background-color: blue; */
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+#content-container-part1-part1{
+    height: 410px;
+    width: 800px;
+    background-color:#DBDAD7;
+    border-radius: 20PX;
+    padding: 20px 30px 20px 30px;
+  
+}
+#content-container-part1-part1 h1{
+font-size: 80px;
+color: #111;
+line-height: 80px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+}
+#content-container-part1-part1 i{
+  position: absolute;
+  left: 29.5%;
+  top: 16%;
+  font-weight: 500;
+  font-size: 45px;
+}
+#line{
+  width: 280px;
+  height: 4px;
+  background-color: rgb(16, 16, 16);
+  position: absolute;
+  left: 13%;
+  top: 21%;
+}
+#content-container-part1-part1 p{
+  line-height: 22px;
+  margin-top: 80px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "gilroy";
+}
+#content-container-part2{
+    height: 240px;
+    width: 800px;
+    border-radius: 20px;
+    display:flex;
+    gap:10px;
+    padding:10px;
+   margin-bottom: 20px;
+}
+#content-container-part2 #part1{
+    height: 230px;
+    width: 400px;
+    background-color: rgb(227, 32, 71);
+    background-image: url(https://images.unsplash.com/photo-1600600423621-70c9f4416ae9?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center;
+    border-radius: 20px;
+}
+#content-container-part2 #part1 h4{
+  color: #fff;
+  font-family: "Gilroy";
+  font-size: 20px;
+  margin-top: 50%;
+  padding-left: 15px;
+  letter-spacing: 5px;
+}
+
+#content-container-part2 #part2{
+    height: 230px;
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1673286150219-b5ce7af7e0dc?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;   
+    background-color: rgb(177, 35, 64);
+    border-radius: 20px;
+}
+#content-container-part2 #part2 h4{
+  color: #fff;
+  font-family: "gilroy";
+  font-size: 20px;
+  margin-top: 50%;
+  padding-left: 15px;
+  letter-spacing: 5px;
+}
+
+#content-container-part3{
+    height: 650px;
+    width: 800px;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1696451203186-6eb38b06fbbc?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+#main-circle{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  /* background-color:#ffffff2d; */
+  border: 1px solid white;
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  filter: opacity(100px);
+  backdrop-filter: blur(10px);
+}
+#main-circle h3{
+  font-size: 17px;
+  position: absolute;
+  font-family: gilroy;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+} 
+#content{
+  height: 30px;
+  width: 180px;
+  background-color:#fff;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+  top: 90%;
+  left: 35%;
+}
+#content h3{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Gilroy";
+}
+#circle{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #111;
+  position: relative;
+}
+#circle i{
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+#content-2{
+  height: 30px;
+  width: 180px;
+  background-color:transparent;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+  top: 90%;
+  left: 66%;
+  backdrop-filter: blur(10px);
+}
+#content-2 h3{
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Gilroy";
+}

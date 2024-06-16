@@ -1,0 +1,34 @@
+<!-- ek array he jisme kai saare naam he or ik input he usme jab ham koi naam likhein to real time me naam change hote huye dikhe -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input name changer</title>
+    <style>
+      .scrollercustom::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="main w-full h-screen flex items-center justify-center gap-3 bg-zinc-900 font-['Gilroy']"
+    >
+      <div class="inpandresult">
+        <input
+          class="px-3 py-2 bg-zinc-800 outline-none rounded-md text-white"
+          type="text"
+          placeholder="filter out names..."
+        />
+        <div
+          class="scrollercustom w-full h-52 text-white overflow-y-scroll"
+        ></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

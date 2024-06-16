@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  mix-blend-mode: difference;
+  background: linear-gradient(red, orange);
+  background-clip: text;
+  color: transparent;
+}
+.cursor {
+  transition: all ease 0.2s;
+}

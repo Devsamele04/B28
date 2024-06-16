@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 420px;
+    width: 320px;
+    background-color:#fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+#container{
+    height: 270px;
+    width: 290px;
+    border-radius: 8px;
+    background-image:url(https://imgs.search.brave.com/JGDkoLZBAjVFQOqn3I2kxOw54PfsvODpCmUDxNbCELw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wYWdh/bG5ldy5jb20vY292/ZXJpbWFnZXMvTG92/ZS1Jcy1BLVdhc3Rl/LU9mLVRpbWUtUEst/NTAwLTUwMC5qcGc);
+    background-position: center;
+    background-size: cover;
+}
+#headings{
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  /* background-color: #7a1fdb; */
+}
+#headings h2{
+  font-size: 22px;
+  font-weight: 500;
+}
+#headings p{
+font-size: 13px;
+font-weight: 400;
+margin-top: 4px;
+}
+#icons{
+  height: 50px;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+#icons i{
+  font-size: 25px;
+}

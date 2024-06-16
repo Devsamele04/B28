@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  height: 300px;
+  width: 600px;
+  background-color: #dadada;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+#growth {
+
+  height: 20px;
+  width: 555px;
+  background-color:#FFF;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+
+.bar{
+  background-color:green;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 20px;
+  width: 0px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: red;
+  font-size: 30px;
+}
+button {
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: lightgreen;
+  font-weight: 600;
+}
+button:active{
+  scale:0.9;
+}

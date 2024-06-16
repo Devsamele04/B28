@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+}
+#nav {
+  height: 80px;
+  width: 100%;
+  /* background-color:yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.gola {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #000;
+}
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#nav-part2 h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+#nav-part2 h4:hover {
+  color: yellowgreen;
+}
+#nav-part2 h4 span {
+  color: rgba(106, 106, 158, 0.745);
+  margin-left: 25px;
+}
+#nav2 {
+  height: 70px;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 0 50px;
+}
+#nav2 h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+#nav2 h3:hover {
+  color: #fe07fe;
+}
+#content {
+  height: calc(100% - 150px);
+  width: 100%;
+  /* background-color: orange; */
+}
+#text-content {
+  height: 40%;
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  overflow-x: auto;
+}
+#text-content::-webkit-scrollbar {
+  background-color: transparent;
+  height: 6px;
+}
+#text-content::-webkit-scrollbar-thumb {
+  background-color: rgba(205, 102, 65, 0.879);
+}
+.elem {
+  flex-shrink: 0;
+  height: 100%;
+  width: 60%;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elem h1 {
+  font-size: 120px;
+  font-weight: 300;
+}
+#image-content {
+  height: 60%;
+  width: 100%;
+  /* background-color: purple; */
+  display: flex;
+  overflow-x: auto;
+}
+#image-content::-webkit-scrollbar {
+  display: none;
+}
+#image-content img {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}

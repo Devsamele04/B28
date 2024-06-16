@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(131, 91, 91);
+  background-image: url(https://www.apple.com/v/home/bl/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#nav {
+  padding: 0px 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+  background-color: #151518;
+}
+#nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 12px;
+}
+#nav i {
+  color: white;
+  font-size: 13px;
+}
+h1 {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%,0);
+  font-size: 55px;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+ position: absolute;
+ left: 50%;
+ top: 25%;
+ transform: translate(-50%,0);
+ font-size: 30px;
+ font-weight: 500;
+
+}
+
+#links-container {
+  display: flex;
+  text-align: center;
+  margin-left: 675px;
+  margin-top: 180px;
+  gap: 30px;
+}
+#content-container-part1 {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+#content-container-part1,
+#content-container-part2 a,
+a {
+  text-decoration: none;
+  color: #2997ff;
+  font-size: 19px;
+  font-weight: 400;
+}
+#content-container-part1,
+#content-container-part2 i,
+i {
+  color: #2997ff;
+  font-size: 20px;
+  margin-top: 3px;
+}
+#content-container-part2 {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}

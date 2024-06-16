@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #dadada;
+}
+img {
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  box-shadow: 0 10px 20px #00000071;
+  transform: translate(-50%, -50%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  border-radius: 10px;
+}
+#a {
+  left: 25%;
+}
+#b {
+  left: 50%;
+}
+#c {
+  left: 75%;
+}
+img:hover {
+  height: 70%;
+}

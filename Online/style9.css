@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: #eae8e8;
+  padding: 20px;
+}
+#nav{
+  height: 60px;
+  width: 100%;
+  border-radius: 35px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+#nav-part1 h1{
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600;
+color: #111;
+}
+#nav-part2{
+  border:none;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #e2e2e2;
+  font-size: 12px;
+  border-radius: 35px;
+  margin-left: 68%;
+}
+#nav a{
+height: 35px;
+width: 100px;
+padding:13px;
+color: #000;
+text-decoration: none;
+}
+#nav button{
+  height: 35px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  background-color:#111;
+  border-radius: 30px;
+}
+#page{
+  height:95%;
+  width:100%;
+  border-radius: 38px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-image: url(https://dermacompanies.in/wp-content/uploads/2021/01/Top-Cosmetic-Manufacturers-in-Mumbai.jpg);
+}
+#h1s{
+  height: 100px;
+  width: 600px;
+  /* background-color: yellow; */
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  
+}
+#h1s p{
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(68, 26, 26);
+}
+#h1s p span{
+  font-weight: 600;
+
+}
+#content{
+  height: 130px;
+  width: 550px;
+  background-color:#ffff;
+  border-radius: 20px;
+  position: absolute;
+  top: 81%;
+  left: 50px; 
+  padding: 10px;
+}
+#pic{
+  border-radius: 10px;
+  height: 110px;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#para{
+  height: 130px;
+  width: 370px;
+  /* background-color: rgb(255, 55, 0); */
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 180px; 
+  padding: 15px;
+}
+#para p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+#para #oye{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#shade{
+  height: 415px;
+  width: 350px;
+  padding: 25px;
+  background-color: #4847471f;
+  border-radius: 15px;
+  position: absolute;
+  right: 35px;
+  top: 44%;
+  backdrop-filter: blur(15px);
+}
+#dibba{
+  position: absolute;
+  top: 135px;
+  border-radius: 15px;
+  margin: 10px 10px;
+  height: 250px;
+  width: 280px;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfYxKL6m9KWIJjhMiUFprH94XcnAi5gpxYesEsnWu8iVuCqJTI);
+  background-size: contain;
+  background-position: center;
+}
+#names h4{
+  font-size: 15px;
+  font-weight: 600;
+  color: #3c1111;
+
+}
+#names h3{
+  margin-top: 5px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #330e0e;
+}
+#circle{
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#circle i{
+  font-size: 20px;
+}
+#buttons{
+  /* background-color: rgb(255, 55, 0);   */
+  border-radius: 60px;
+  position: absolute;
+  top: 36.5%;
+  right: 21px; 
+  padding: 20px;
+}
+button{
+  height: 30px;
+  width: 110px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #3b1111;
+  background-color: #63626229;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: none;
+}
+#dabba{
+  height: 250px;
+  width: 100%;
+  /* background-color: green; */
+  padding: 30px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#left h5{
+font-weight: 600;
+}
+#right{
+  height: 150px;
+  width: 600px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 40px;
+  /* background-color: brown; */
+}
+#su{
+  height: 40px;
+  width: 110px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: transparent;
+  /* color: #fff; */
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.dabba2{
+  height: 450px;
+  width: 100%;
+  /* background-color: green; */
+  padding: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.box{
+  position: relative;
+  height: 430px;
+  width: 360px;
+  background-color: #F4F4F4;
+  border-radius: 10px;
+}
+.box h5{
+  padding: 20px;
+  font-size: 15px;
+}
+.chota{
+  height: 350px;
+  width: 330px;
+  position: absolute;
+  top: 50px;
+  border-radius: 15px;
+  margin: 15px;
+  background-image:url(https://cosmoll.org/16981-large_default/the-act-body-cream-souffle-with-natural-mango-butter-180g-634oz.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#a{
+ background-image: url(https://theact-labs.com/cdn/shop/products/1_460x.png?v=1681992334); 
+ background-size: cover;
+ background-position: center;
+}
+
+#b{
+  background-image: url(https://cosmoll.org/10752-large_default/the-act-dry-oil-body-mist-100ml.jpg);
+  background-size: contain;
+  background-position: center;
+}
+#c{
+  background-image: url(https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#bottom{
+  height: 120%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom:20%;
+}
+#center h1{
+  width: 100%;
+  font-size: 400px;
+  font-weight: 400;
+  font-family:desert;
+  /* background-color: orange; */
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+#photo{
+  height: 350px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://theact-labs.com/cdn/shop/products/ACT_17790_460x.jpg?v=1648125533);
+  position: absolute;
+  font-size: 300px;
+  top: 70%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+#click {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+.bro{
+  height:30px;
+  width: 100px;
+}
+.hui{
+  height: 200px;
+  width: 20%;
+  background-color:#63626229;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  border-radius: 20px;
+  display: flex;
+}
+#d{
+margin:20px 50px ;
+border: 1px solid #000;
+background-color: transparent;
+}
